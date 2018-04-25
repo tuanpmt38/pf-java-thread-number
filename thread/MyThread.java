@@ -10,7 +10,6 @@ public class MyThread extends Thread{
                 System.out.print(i +" ");
                 Thread.sleep(500);
                 System.out.printf("\t Luồng: %s có độ ưu tiên là %d \n", getName(), getPriority());
-
             }
         }catch ( Exception e){
             e.printStackTrace();
